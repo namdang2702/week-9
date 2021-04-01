@@ -16,6 +16,7 @@ html, body {
         font-family: Helvetica, Arial,  sans-serif;
         font-size: 13px;
         color: #F1F5F8;
+        position: relative;
     }
     *
     {
@@ -59,6 +60,7 @@ html, body {
     
     #header
     {
+      margin-top: 60px;
     background-image:url(https://www.html.am/templates/downloads/bryantsmith/spacerace/header.png);
     background-repeat:no-repeat;
     height:155px;
@@ -246,5 +248,149 @@ height: 400px;
     {
        color:red;
     }
+
+    .modal-btn {
+      margin-top: 15px;
+      margin-left: 150px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .modal-content {
+      padding: 12px;
+    }
+
+    .modal-content h2 {
+      text-align: center;
+    }
+
+    .modal-content img {
+      float: left;
+      padding: 20px;
+    }
+
+    .modal-content .close-x {
+      margin: 10px;
+      padding: 1px 5px;
+      font-size: 30px;
+      position: relative;
+      right: -19cm;
+      width: fit-content;
+      font-weight: bold;
+      border:none;
+      background: none;
+    }
+
+    .modal-content .modal-close {
+      width: fit-content;
+      background-color: tomato;
+      margin: 8px;
+      position: relative;
+      right: -18cm;
+    }
+
+    #mySlide {
+      margin-top: 5px;
+      width: 90%;
+      height: 420px;
+    }
+
+    .car-sec {
+      padding-top: 55px;
+      background: rgb(153, 150, 150);
+      text-align: center;
+      font-size: 32px;
+      margin-top: 25px;
+      margin-bottom: 0;
+      height: 110px;
+      border-radius: 18px;
+    }
+
+    .carousel-inner {
+      height: 80%;
+      padding: 10px;
+      background-color: darkgray;
+    }
+
+    .carousel-control-prev-icon {
+      position: relative;
+      top: -11em;
+      left: -1cm;
+      cursor: pointer;
+    }
+
+    .carousel-control-next-icon {
+      position: relative;
+      top: -11em;
+      right: -17.5cm;
+      cursor: pointer;
+    }
+
+    .carousel-inner .carousel-item img {
+      width: 40%;
+      height: 290px;
+      padding-right: 12px;
+      float: left;
+      overflow: hidden;
+      margin-top: 15px;
+    }
+
+    .carousel-item {
+      color: rgb(252, 249, 240);
+      margin-top: 5px;
+      justify-items: right;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    nav {
+      border-radius: 15px;
+      width: 741px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .navbar-nav {
+    font-size: 20px;
+    }
+
+    .nav-link:hover {
+      background: rgb(50, 59, 87);
+      border-radius: 5px;
+    }
+
+
+    .btn {
+      margin-bottom: 5px;
+    }
+
+    .card {
+      color: rgb(124, 24, 33);
+    }
+
+    .card .card-header {
+      background: rgb(226, 225, 225);
+      width: 100%;
+      text-decoration: underline;
+    }
     
+
+    .card h2 {
+      color: rgb(46, 64, 114);
+      text-align: center;
+    }
+
+    .card-header .card-link {
+      color: rgb(6, 44, 56);
+      font-size: 22px;
+    }
+
+
+
+   
+
+
+
+
     
